@@ -11,7 +11,7 @@ The repository is organized into two main folders:
 
 ### `BFL/`
 Contains the code for Paper (1) and the federated learning training needed to reproduce Paper (2).  
-Running `BFL/` produces training artifacts (e.g., checkpoints and logs) that are used by the personalization step.
+Running the code under `BFL/` produces training artifacts (e.g., checkpoints and logs) that are used by the personalization step.
 
 ### `Personalization/`
 Contains the code to reproduce the final results of Paper (2), **after** you obtain the required artifacts from `BFL/` (global/local models and training-data statistics, extracted from the BFL logs/checkpoints).
